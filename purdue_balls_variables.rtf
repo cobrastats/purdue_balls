@@ -1,0 +1,51 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 purdue_balls variables\
+\
+Season: year of season\
+Date: date of game\
+Location: 1 = home, 2 = away, 3 = neutral\
+Opponent: Purdue\'92s game opponent\
+\
+Ball: brand of ball used\
+Nike: 1 = Nike ball, 0 = non-Nike ball\
+\
+W/L: 1 = win, 0 = loss\
+OT: 0 - no OT, 1 = 1OT, 2 = 2OT\
+Score: Purdue score\
+opp_score: opponent\'92s score\
+\
+FG: field goals made\
+FGA: field goals attempted\
+FG%: field goal percentage\
+\
+2P: 2-point field goals made\
+2PA: 2-point field goals attempted\
+2P%: 2-point field goal percentage\
+\
+3P: 3-point field goals made\
+3PA: 3-point field goals attempted\
+3P%: 3-point field goal percentage\
+\
+FT: free throws made\
+FTA: free throws attempted\
+FT%: free throw percentage\
+\
+p_spread: betting market spread for Purdue (negative = favorite, positive = underdog)\
+pred_mov: predicted margin of victory; (-1)*p_spread\
+mov: margin of victory; score minus opp_score\
+ats: against the spread; 1 = covered spread, 0 = failed to cover spread\
+\
+ou_line: betting market total points line\
+total_pts: total points; score + opp_score\
+o/u: total points results; 1 = over, 0 = under\
+\
+pred_score: using totals and spread, Purdue\'92s predicted number of points scored; = (0.5*ou_line)+(0.5*pred_mov)\
+pred_error: error from predicted score; score minus pred_score; negative = underperformed against betting markets, positive = over performed against betting markets\
+ \
+ref1, ref2, ref3 = referees for games}
